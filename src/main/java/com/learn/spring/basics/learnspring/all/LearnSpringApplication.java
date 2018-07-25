@@ -1,6 +1,6 @@
-package com.learn.spring.basics.learnspring;
+package com.learn.spring.basics.learnspring.all;
 
-import com.learn.spring.basics.learnspring.basic.BinarySearchImpl;
+import com.learn.spring.basics.learnspring.all.basic.BinarySearchImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

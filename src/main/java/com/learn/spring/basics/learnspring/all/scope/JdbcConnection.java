@@ -1,4 +1,4 @@
-package com.learn.spring.basics.learnspring.scope;
+package com.learn.spring.basics.learnspring.all.scope;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;

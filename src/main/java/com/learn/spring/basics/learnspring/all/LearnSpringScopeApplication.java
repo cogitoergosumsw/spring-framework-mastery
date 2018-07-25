@@ -1,7 +1,6 @@
-package com.learn.spring.basics.learnspring;
+package com.learn.spring.basics.learnspring.all;
 
-import com.learn.spring.basics.learnspring.basic.BinarySearchImpl;
-import com.learn.spring.basics.learnspring.scope.PersonDAO;
+import com.learn.spring.basics.learnspring.all.scope.PersonDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -25,6 +24,7 @@ public class LearnSpringScopeApplication {
                 applicationContext.getBean(PersonDAO.class);
 
         LOGGER.info("{}", personDAO);
+        LOGGER.info("{}", personDAO.getJdbcConnection());
         LOGGER.info("{}", personDAO.getJdbcConnection());
         LOGGER.info("{}", personDAO2);
         LOGGER.info("{}", personDAO2.getJdbcConnection());

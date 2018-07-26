@@ -1,12 +1,12 @@
 package com.learn.spring.basics.learnspring.all.scope;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 /**
  * Created by didi on 2018/7/25.
  */
-@Component
+@Repository
 public class PersonDAO {
     @Autowired
     JdbcConnection jdbcConnection;

@@ -22,4 +22,15 @@ public class CDIFile {
     public void setCdiFileDAO(CDIFileDAO cdiFileDAO) {
         this.cdiFileDAO = cdiFileDAO;
     }
+
+    public int findGreatest() {
+        int greatest = Integer.MIN_VALUE;
+        int[] data = cdiFileDAO.getData();
+        for (int value : data) {
+            if (value > greatest) {
+                greatest = value;
+            }
+        }
+        return greatest;
+    }
 }

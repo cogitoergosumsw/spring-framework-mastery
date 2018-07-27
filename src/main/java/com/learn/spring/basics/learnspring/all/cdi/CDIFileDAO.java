@@ -10,4 +10,7 @@ import javax.inject.Named;
 
 @Named
 public class CDIFileDAO {
+    public int[] getData() {
+        return new int[]{5, 89, 100};
+    }
 }
